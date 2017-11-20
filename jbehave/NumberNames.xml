@@ -1,0 +1,15 @@
+<story path="file:/Users/c5260352/Downloads/assessment-master-62474bcc7e5680cecde278b95dfc54b41301dc80/bin/stories/NumberNames.story" title="Story: The Number names">
+<meta>
+<property keyword="@" name="scope" value="interview"/>
+</meta>
+<scenario keyword="Scenario:" title="1">
+<step outcome="successful">When the input is <parameter>43112609</parameter></step>
+<step outcome="successful">Then the output will be
+fourty-three million, one hundred twelve thousand, six hundred nine</step>
+</scenario>
+<scenario keyword="Scenario:" title="2">
+<step outcome="successful">When the input is <parameter>1</parameter></step>
+<step outcome="successful">Then the output will be
+one</step>
+</scenario>
+</story>
